@@ -9,7 +9,7 @@
       <am:Name>SSDTRS</am:Name>
       <am:Version>17.10.35004.147</am:Version>
     </am:UpdatedBy>
-    <am:LastModifiedTimestamp>2024-07-23T23:29:27.0093074Z</am:LastModifiedTimestamp>
+    <am:LastModifiedTimestamp>2024-07-25T15:38:02.5917391Z</am:LastModifiedTimestamp>
   </am:AuthoringMetadata>
   <df:DefaultFontFamily>Segoe UI</df:DefaultFontFamily>
   <AutoRefresh>0</AutoRefresh>
@@ -699,8 +699,8 @@ Empolyee Name</Value>
             <DataSetName>EmployeeHomeInformation</DataSetName>
             <Top>1.88833in</Top>
             <Left>0.99667in</Left>
-            <Height>1.23333in</Height>
-            <Width>7.51667in</Width>
+            <Height>1.23334in</Height>
+            <Width>7.51665in</Width>
             <ZIndex>4</ZIndex>
             <Style>
               <Border>
@@ -708,6 +708,52 @@ Empolyee Name</Value>
               </Border>
             </Style>
           </Tablix>
+          <Textbox Name="Textbox5">
+            <CanGrow>true</CanGrow>
+            <CanShrink>true</CanShrink>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>New Hires</Value>
+                    <Style>
+                      <FontFamily>Georgia</FontFamily>
+                      <FontSize>18pt</FontSize>
+                      <Color>Olive</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <TextAlign>Center</TextAlign>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox5</rd:DefaultName>
+            <ActionInfo>
+              <Actions>
+                <Action>
+                  <Drillthrough>
+                    <ReportName>NewHires</ReportName>
+                  </Drillthrough>
+                </Action>
+              </Actions>
+            </ActionInfo>
+            <Top>1.19667in</Top>
+            <Left>3.73832in</Left>
+            <Height>0.40833in</Height>
+            <Width>1.76834in</Width>
+            <ZIndex>5</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
         </ReportItems>
         <Height>4.425in</Height>
         <Style />
