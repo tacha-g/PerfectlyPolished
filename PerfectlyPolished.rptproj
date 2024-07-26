@@ -56,6 +56,7 @@
     <DataSource Include="SharedPerfectlyPolished.rds" />
   </ItemGroup>
   <ItemGroup>
+    <Report Include="AddEmployee.rdl" />
     <Report Include="Dips.rdl" />
     <Report Include="Discounts.rdl" />
     <Report Include="EmployeeHomeInformation.rdl" />
@@ -63,7 +64,6 @@
     <Report Include="GraphingEmployeeSales.rdl" />
     <Report Include="Home.rdl" />
     <Report Include="Liquids.rdl" />
-    <Report Include="NewHires.rdl" />
     <Report Include="ReviewOfProducts.rdl" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Reporting Services\Microsoft.ReportingServices.MSBuilder.targets" />

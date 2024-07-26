@@ -570,6 +570,7 @@ Empolyee Name</Value>
                       <CellContents>
                         <Textbox Name="EmailAddress">
                           <CanGrow>true</CanGrow>
+                          <CanShrink>true</CanShrink>
                           <KeepTogether>true</KeepTogether>
                           <Paragraphs>
                             <Paragraph>
@@ -635,6 +636,7 @@ Empolyee Name</Value>
                             <PaddingBottom>2pt</PaddingBottom>
                           </Style>
                         </Textbox>
+                        <rd:Selected>true</rd:Selected>
                       </CellContents>
                     </TablixCell>
                     <TablixCell>
@@ -716,7 +718,7 @@ Empolyee Name</Value>
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>New Hires</Value>
+                    <Value>Add Employee</Value>
                     <Style>
                       <FontFamily>Georgia</FontFamily>
                       <FontSize>18pt</FontSize>

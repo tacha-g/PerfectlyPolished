@@ -21,7 +21,7 @@
     </DataSource>
   </DataSources>
   <DataSets>
-    <DataSet Name="NewHires">
+    <DataSet Name="DataSet1">
       <SharedDataSet>
         <SharedDataSetReference>AddOrUpdateEmployee</SharedDataSetReference>
         <QueryParameters>
@@ -33,6 +33,15 @@
           </QueryParameter>
           <QueryParameter Name="@JobTitle">
             <Value>=Parameters!JobTitle.Value</Value>
+          </QueryParameter>
+          <QueryParameter Name="@EmailAddress">
+            <Value>=Parameters!EmailAddress.Value</Value>
+          </QueryParameter>
+          <QueryParameter Name="@Phone">
+            <Value>=Parameters!Phone.Value</Value>
+          </QueryParameter>
+          <QueryParameter Name="@HireDate">
+            <Value>=Parameters!HireDate.Value</Value>
           </QueryParameter>
         </QueryParameters>
       </SharedDataSet>
@@ -56,7 +65,7 @@
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>New Hires</Value>
+                    <Value>Add Employee</Value>
                     <Style>
                       <FontFamily>Georgia</FontFamily>
                       <FontSize>24pt</FontSize>
@@ -73,7 +82,7 @@
             <Top>0.37167in</Top>
             <Left>0.43in</Left>
             <Height>0.575in</Height>
-            <Width>2.15833in</Width>
+            <Width>2.55in</Width>
             <Style>
               <Border>
                 <Style>None</Style>
@@ -190,11 +199,23 @@
       <DataType>String</DataType>
       <Prompt>Job Title</Prompt>
     </ReportParameter>
+    <ReportParameter Name="EmailAddress">
+      <DataType>String</DataType>
+      <Prompt>Email Address</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Phone">
+      <DataType>String</DataType>
+      <Prompt>Phone</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="HireDate">
+      <DataType>String</DataType>
+      <Prompt>Hire Date</Prompt>
+    </ReportParameter>
   </ReportParameters>
   <ReportParametersLayout>
     <GridLayoutDefinition>
       <NumberOfColumns>4</NumberOfColumns>
-      <NumberOfRows>1</NumberOfRows>
+      <NumberOfRows>2</NumberOfRows>
       <CellDefinitions>
         <CellDefinition>
           <ColumnIndex>0</ColumnIndex>
@@ -210,6 +231,21 @@
           <ColumnIndex>2</ColumnIndex>
           <RowIndex>0</RowIndex>
           <ParameterName>JobTitle</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>3</ColumnIndex>
+          <RowIndex>0</RowIndex>
+          <ParameterName>EmailAddress</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>0</ColumnIndex>
+          <RowIndex>1</RowIndex>
+          <ParameterName>Phone</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>1</ColumnIndex>
+          <RowIndex>1</RowIndex>
+          <ParameterName>HireDate</ParameterName>
         </CellDefinition>
       </CellDefinitions>
     </GridLayoutDefinition>
