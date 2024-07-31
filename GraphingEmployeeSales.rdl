@@ -9,7 +9,7 @@
       <am:Name>SSDTRS</am:Name>
       <am:Version>17.10.35004.147</am:Version>
     </am:UpdatedBy>
-    <am:LastModifiedTimestamp>2024-07-24T01:00:04.7439332Z</am:LastModifiedTimestamp>
+    <am:LastModifiedTimestamp>2024-07-26T23:18:10.4827373Z</am:LastModifiedTimestamp>
   </am:AuthoringMetadata>
   <df:DefaultFontFamily>Segoe UI</df:DefaultFontFamily>
   <AutoRefresh>0</AutoRefresh>
@@ -173,7 +173,7 @@
               <PaddingBottom>2pt</PaddingBottom>
             </Style>
           </Textbox>
-          <Chart Name="Chart1">
+          <Chart Name="GraphingEmployee">
             <ChartCategoryHierarchy>
               <ChartMembers>
                 <ChartMember>
@@ -480,7 +480,7 @@
                 </Style>
               </ChartTitle>
             </ChartTitles>
-            <Palette>Pacific</Palette>
+            <Palette>Excel</Palette>
             <ChartBorderSkin>
               <Style>
                 <BackgroundColor>Gray</BackgroundColor>
