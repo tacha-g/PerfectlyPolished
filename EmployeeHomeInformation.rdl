@@ -92,51 +92,6 @@
               <PaddingBottom>2pt</PaddingBottom>
             </Style>
           </Textbox>
-          <Textbox Name="Textbox2">
-            <CanGrow>true</CanGrow>
-            <CanShrink>true</CanShrink>
-            <KeepTogether>true</KeepTogether>
-            <Paragraphs>
-              <Paragraph>
-                <TextRuns>
-                  <TextRun>
-                    <Value>Home</Value>
-                    <Style>
-                      <FontFamily>Georgia</FontFamily>
-                      <FontSize>12pt</FontSize>
-                    </Style>
-                  </TextRun>
-                </TextRuns>
-                <Style>
-                  <TextAlign>Center</TextAlign>
-                </Style>
-              </Paragraph>
-            </Paragraphs>
-            <rd:DefaultName>Textbox2</rd:DefaultName>
-            <ActionInfo>
-              <Actions>
-                <Action>
-                  <Drillthrough>
-                    <ReportName>Home</ReportName>
-                  </Drillthrough>
-                </Action>
-              </Actions>
-            </ActionInfo>
-            <Top>0.33in</Top>
-            <Left>7.87167in</Left>
-            <Height>0.33333in</Height>
-            <Width>1.01667in</Width>
-            <ZIndex>1</ZIndex>
-            <Style>
-              <Border>
-                <Style>None</Style>
-              </Border>
-              <PaddingLeft>2pt</PaddingLeft>
-              <PaddingRight>2pt</PaddingRight>
-              <PaddingTop>2pt</PaddingTop>
-              <PaddingBottom>2pt</PaddingBottom>
-            </Style>
-          </Textbox>
           <Textbox Name="Textbox3">
             <CanGrow>true</CanGrow>
             <CanShrink>true</CanShrink>
@@ -145,7 +100,7 @@
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>Discounts</Value>
+                    <Value>Discounts %</Value>
                     <Style>
                       <FontFamily>Georgia</FontFamily>
                       <FontSize>18pt</FontSize>
@@ -172,7 +127,7 @@
             <Left>1.17167in</Left>
             <Height>0.40833in</Height>
             <Width>1.58333in</Width>
-            <ZIndex>2</ZIndex>
+            <ZIndex>1</ZIndex>
             <Style>
               <Border>
                 <Style>None</Style>
@@ -191,7 +146,7 @@
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>Our Top Seller</Value>
+                    <Value>Our Top Seller </Value>
                     <Style>
                       <FontFamily>Georgia</FontFamily>
                       <FontSize>18pt</FontSize>
@@ -218,7 +173,7 @@
             <Left>6.59667in</Left>
             <Height>0.40833in</Height>
             <Width>1.725in</Width>
-            <ZIndex>3</ZIndex>
+            <ZIndex>2</ZIndex>
             <Style>
               <Border>
                 <Style>None</Style>
@@ -702,7 +657,7 @@ Empolyee Name</Value>
             <Left>0.99667in</Left>
             <Height>1.23334in</Height>
             <Width>7.51665in</Width>
-            <ZIndex>4</ZIndex>
+            <ZIndex>3</ZIndex>
             <Style>
               <Border>
                 <Style>None</Style>
@@ -717,7 +672,7 @@ Empolyee Name</Value>
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>Add Employee</Value>
+                    <Value>+ Add Employee</Value>
                     <Style>
                       <FontFamily>Georgia</FontFamily>
                       <FontSize>18pt</FontSize>
@@ -743,8 +698,8 @@ Empolyee Name</Value>
             <Top>1.19667in</Top>
             <Left>3.73832in</Left>
             <Height>0.40833in</Height>
-            <Width>1.76834in</Width>
-            <ZIndex>5</ZIndex>
+            <Width>1.96in</Width>
+            <ZIndex>4</ZIndex>
             <Style>
               <Border>
                 <Style>None</Style>
@@ -755,6 +710,30 @@ Empolyee Name</Value>
               <PaddingBottom>2pt</PaddingBottom>
             </Style>
           </Textbox>
+          <Image Name="NailHomePage">
+            <Source>Embedded</Source>
+            <Value>NailHomePage</Value>
+            <Sizing>Fit</Sizing>
+            <ActionInfo>
+              <Actions>
+                <Action>
+                  <Drillthrough>
+                    <ReportName>Home</ReportName>
+                  </Drillthrough>
+                </Action>
+              </Actions>
+            </ActionInfo>
+            <Top>0.18833in</Top>
+            <Left>7.48834in</Left>
+            <Height>0.63333in</Height>
+            <Width>0.83333in</Width>
+            <ZIndex>5</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+            </Style>
+          </Image>
         </ReportItems>
         <Height>4.425in</Height>
         <Style />
@@ -775,6 +754,15 @@ Empolyee Name</Value>
       <NumberOfRows>2</NumberOfRows>
     </GridLayoutDefinition>
   </ReportParametersLayout>
+  <EmbeddedImages>
+    <EmbeddedImage Name="NailHomePage">
+      <MIMEType>image/png</MIMEType>
+      <ImageData>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</ImageData>
+    </EmbeddedImage>
+  </EmbeddedImages>
   <rd:ReportUnitType>Inch</rd:ReportUnitType>
   <rd:ReportID>acda5517-3eff-4a1b-a48d-b3c6e0e23bb4</rd:ReportID>
 </Report>

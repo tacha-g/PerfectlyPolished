@@ -50,14 +50,18 @@
   </PropertyGroup>
   <ItemGroup>
     <DataSet Include="AddOrUpdateEmployee.rsd" />
+    <DataSet Include="PickingCustomerSale.rsd" />
+    <DataSet Include="PickingEmployeeSale.rsd" />
     <DataSet Include="ProductNames.rsd" />
     <DataSet Include="ProductSearch.rsd" />
+    <DataSet Include="SaleForEmployeeGraph.rsd" />
   </ItemGroup>
   <ItemGroup>
     <DataSource Include="SharedPerfectlyPolished.rds" />
   </ItemGroup>
   <ItemGroup>
     <Report Include="AddEmployee.rdl" />
+    <Report Include="BuyingProducts.rdl" />
     <Report Include="Dips.rdl" />
     <Report Include="Discounts.rdl" />
     <Report Include="EmployeeHomeInformation.rdl" />
