@@ -9,7 +9,7 @@
       <am:Name>SSDTRS</am:Name>
       <am:Version>17.10.35004.147</am:Version>
     </am:UpdatedBy>
-    <am:LastModifiedTimestamp>2024-08-04T05:42:39.3450297Z</am:LastModifiedTimestamp>
+    <am:LastModifiedTimestamp>2024-08-07T00:40:46.2691455Z</am:LastModifiedTimestamp>
   </am:AuthoringMetadata>
   <df:DefaultFontFamily>Segoe UI</df:DefaultFontFamily>
   <AutoRefresh>0</AutoRefresh>
@@ -21,35 +21,57 @@
     </DataSource>
   </DataSources>
   <DataSets>
-    <DataSet Name="PickingCustomerSale">
+    <DataSet Name="SellingToCustomer">
       <SharedDataSet>
-        <SharedDataSetReference>PickingCustomerSale</SharedDataSetReference>
+        <SharedDataSetReference>SellingToCustomer</SharedDataSetReference>
       </SharedDataSet>
       <Fields>
-        <Field Name="CustomerName">
-          <DataField>CustomerName</DataField>
-          <rd:TypeName>System.String</rd:TypeName>
+        <Field Name="CustomerID">
+          <DataField>CustomerID</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
         </Field>
       </Fields>
     </DataSet>
-    <DataSet Name="PickingEmployeeSale">
+    <DataSet Name="PickingEmployeeSales">
       <SharedDataSet>
-        <SharedDataSetReference>PickingEmployeeSale</SharedDataSetReference>
+        <SharedDataSetReference>PickingEmployeeSales</SharedDataSetReference>
       </SharedDataSet>
       <Fields>
-        <Field Name="EmployeeName">
-          <DataField>EmployeeName</DataField>
-          <rd:TypeName>System.String</rd:TypeName>
+        <Field Name="EmployeeID">
+          <DataField>EmployeeID</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
         </Field>
       </Fields>
     </DataSet>
-    <DataSet Name="ProductsName">
+    <DataSet Name="PickingProductSales">
       <SharedDataSet>
-        <SharedDataSetReference>ProductNames</SharedDataSetReference>
+        <SharedDataSetReference>PickingProductSales</SharedDataSetReference>
       </SharedDataSet>
       <Fields>
-        <Field Name="ProductName">
-          <DataField>ProductName</DataField>
+        <Field Name="ProductID">
+          <DataField>ProductID</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+      </Fields>
+    </DataSet>
+    <DataSet Name="SellingToCustomerGraph">
+      <SharedDataSet>
+        <SharedDataSetReference>SellingToCustomerGraph</SharedDataSetReference>
+        <QueryParameters>
+          <QueryParameter Name="@CustomerID">
+            <Value>=Parameters!CustomerID.Value</Value>
+          </QueryParameter>
+          <QueryParameter Name="@EmployeeID">
+            <Value>=Parameters!EmployeeID.Value</Value>
+          </QueryParameter>
+          <QueryParameter Name="@ProductID">
+            <Value>=Parameters!ProductID.Value</Value>
+          </QueryParameter>
+        </QueryParameters>
+      </SharedDataSet>
+      <Fields>
+        <Field Name="Msg">
+          <DataField>Msg</DataField>
           <rd:TypeName>System.String</rd:TypeName>
         </Field>
       </Fields>
@@ -128,8 +150,8 @@
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox2</rd:DefaultName>
-            <Top>1.17167in</Top>
-            <Left>3.63in</Left>
+            <Top>1.18555in</Top>
+            <Left>3.38in</Left>
             <Height>0.95833in</Height>
             <Width>2.43333in</Width>
             <ZIndex>1</ZIndex>
@@ -147,8 +169,8 @@
             <Source>Embedded</Source>
             <Value>handclap</Value>
             <Sizing>Fit</Sizing>
-            <Top>2.19944in</Top>
-            <Left>3.88in</Left>
+            <Top>2.17166in</Top>
+            <Left>3.63in</Left>
             <Height>1.25556in</Height>
             <Width>2.08333in</Width>
             <ZIndex>2</ZIndex>
@@ -182,11 +204,46 @@
               </Border>
             </Style>
           </Image>
+          <Textbox Name="Textbox3">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Employee Sales</Value>
+                    <Style>
+                      <FontFamily>Georgia</FontFamily>
+                      <FontSize>16pt</FontSize>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <TextAlign>Center</TextAlign>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox3</rd:DefaultName>
+            <Top>3.37778in</Top>
+            <Left>7.37167in</Left>
+            <Height>0.59722in</Height>
+            <Width>1.49167in</Width>
+            <ZIndex>4</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
         </ReportItems>
-        <Height>3.55833in</Height>
+        <Height>4.125in</Height>
         <Style />
       </Body>
-      <Width>9.01667in</Width>
+      <Width>8.93833in</Width>
       <Page>
         <LeftMargin>1in</LeftMargin>
         <RightMargin>1in</RightMargin>
@@ -197,36 +254,36 @@
     </ReportSection>
   </ReportSections>
   <ReportParameters>
-    <ReportParameter Name="ReportParameter1">
-      <DataType>String</DataType>
-      <Prompt>Customer Name</Prompt>
+    <ReportParameter Name="CustomerID">
+      <DataType>Integer</DataType>
+      <Prompt>Customer ID</Prompt>
       <ValidValues>
         <DataSetReference>
-          <DataSetName>PickingCustomerSale</DataSetName>
-          <ValueField>CustomerName</ValueField>
-          <LabelField>CustomerName</LabelField>
+          <DataSetName>SellingToCustomer</DataSetName>
+          <ValueField>CustomerID</ValueField>
+          <LabelField>CustomerID</LabelField>
         </DataSetReference>
       </ValidValues>
     </ReportParameter>
-    <ReportParameter Name="ReportParameter2">
-      <DataType>String</DataType>
-      <Prompt>Employee Name</Prompt>
+    <ReportParameter Name="EmployeeID">
+      <DataType>Integer</DataType>
+      <Prompt>Employee ID</Prompt>
       <ValidValues>
         <DataSetReference>
-          <DataSetName>PickingEmployeeSale</DataSetName>
-          <ValueField>EmployeeName</ValueField>
-          <LabelField>EmployeeName</LabelField>
+          <DataSetName>PickingEmployeeSales</DataSetName>
+          <ValueField>EmployeeID</ValueField>
+          <LabelField>EmployeeID</LabelField>
         </DataSetReference>
       </ValidValues>
     </ReportParameter>
-    <ReportParameter Name="ReportParameter3">
-      <DataType>String</DataType>
-      <Prompt>Product Name</Prompt>
+    <ReportParameter Name="ProductID">
+      <DataType>Integer</DataType>
+      <Prompt>Product ID</Prompt>
       <ValidValues>
         <DataSetReference>
-          <DataSetName>ProductsName</DataSetName>
-          <ValueField>ProductName</ValueField>
-          <LabelField>ProductName</LabelField>
+          <DataSetName>PickingProductSales</DataSetName>
+          <ValueField>ProductID</ValueField>
+          <LabelField>ProductID</LabelField>
         </DataSetReference>
       </ValidValues>
     </ReportParameter>
@@ -239,17 +296,17 @@
         <CellDefinition>
           <ColumnIndex>0</ColumnIndex>
           <RowIndex>0</RowIndex>
-          <ParameterName>ReportParameter1</ParameterName>
+          <ParameterName>CustomerID</ParameterName>
         </CellDefinition>
         <CellDefinition>
           <ColumnIndex>1</ColumnIndex>
           <RowIndex>0</RowIndex>
-          <ParameterName>ReportParameter2</ParameterName>
+          <ParameterName>EmployeeID</ParameterName>
         </CellDefinition>
         <CellDefinition>
           <ColumnIndex>2</ColumnIndex>
           <RowIndex>0</RowIndex>
-          <ParameterName>ReportParameter3</ParameterName>
+          <ParameterName>ProductID</ParameterName>
         </CellDefinition>
       </CellDefinitions>
     </GridLayoutDefinition>

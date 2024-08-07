@@ -430,13 +430,19 @@
             <ZIndex>3</ZIndex>
             <Style>
               <Border>
+                <Color>White</Color>
                 <Style>None</Style>
               </Border>
             </Style>
           </Image>
         </ReportItems>
         <Height>4.16667in</Height>
-        <Style />
+        <Style>
+          <Border>
+            <Color>White</Color>
+            <Style>None</Style>
+          </Border>
+        </Style>
       </Body>
       <Width>9.38in</Width>
       <Page>

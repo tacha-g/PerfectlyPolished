@@ -3,12 +3,32 @@
   <DataSet Name="DataSet1">
     <Query>
       <DataSourceReference>SharedPerfectlyPolished</DataSourceReference>
+      <DataSetParameters>
+        <DataSetParameter Name="@CustomerID">
+          <ReadOnly>false</ReadOnly>
+          <Nullable>false</Nullable>
+          <OmitFromQuery>false</OmitFromQuery>
+          <rd:DbType>Int32</rd:DbType>
+        </DataSetParameter>
+        <DataSetParameter Name="@EmployeeID">
+          <ReadOnly>false</ReadOnly>
+          <Nullable>false</Nullable>
+          <OmitFromQuery>false</OmitFromQuery>
+          <rd:DbType>Int32</rd:DbType>
+        </DataSetParameter>
+        <DataSetParameter Name="@ProductID">
+          <ReadOnly>false</ReadOnly>
+          <Nullable>false</Nullable>
+          <OmitFromQuery>false</OmitFromQuery>
+          <rd:DbType>Int32</rd:DbType>
+        </DataSetParameter>
+      </DataSetParameters>
       <CommandType>StoredProcedure</CommandType>
-      <CommandText>SellingToCustomer</CommandText>
+      <CommandText>SellingToCustomerGraph</CommandText>
     </Query>
     <Fields>
-      <Field Name="CustomerName">
-        <DataField>CustomerName</DataField>
+      <Field Name="Msg">
+        <DataField>Msg</DataField>
         <rd:TypeName>System.String</rd:TypeName>
       </Field>
     </Fields>

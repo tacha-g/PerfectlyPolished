@@ -4,12 +4,12 @@
     <Query>
       <DataSourceReference>SharedPerfectlyPolished</DataSourceReference>
       <CommandType>StoredProcedure</CommandType>
-      <CommandText>PickingEmployeeSales</CommandText>
+      <CommandText>SellingToCustomer</CommandText>
     </Query>
     <Fields>
-      <Field Name="EmployeeName">
-        <DataField>EmployeeName</DataField>
-        <rd:TypeName>System.String</rd:TypeName>
+      <Field Name="CustomerID">
+        <DataField>CustomerID</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
       </Field>
     </Fields>
   </DataSet>
