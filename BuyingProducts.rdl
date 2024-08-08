@@ -21,39 +21,6 @@
     </DataSource>
   </DataSources>
   <DataSets>
-    <DataSet Name="SellingToCustomer">
-      <SharedDataSet>
-        <SharedDataSetReference>SellingToCustomer</SharedDataSetReference>
-      </SharedDataSet>
-      <Fields>
-        <Field Name="CustomerID">
-          <DataField>CustomerID</DataField>
-          <rd:TypeName>System.Int32</rd:TypeName>
-        </Field>
-      </Fields>
-    </DataSet>
-    <DataSet Name="PickingEmployeeSales">
-      <SharedDataSet>
-        <SharedDataSetReference>PickingEmployeeSales</SharedDataSetReference>
-      </SharedDataSet>
-      <Fields>
-        <Field Name="EmployeeID">
-          <DataField>EmployeeID</DataField>
-          <rd:TypeName>System.Int32</rd:TypeName>
-        </Field>
-      </Fields>
-    </DataSet>
-    <DataSet Name="PickingProductSales">
-      <SharedDataSet>
-        <SharedDataSetReference>PickingProductSales</SharedDataSetReference>
-      </SharedDataSet>
-      <Fields>
-        <Field Name="ProductID">
-          <DataField>ProductID</DataField>
-          <rd:TypeName>System.Int32</rd:TypeName>
-        </Field>
-      </Fields>
-    </DataSet>
     <DataSet Name="SellingToCustomerGraph">
       <SharedDataSet>
         <SharedDataSetReference>SellingToCustomerGraph</SharedDataSetReference>
@@ -72,6 +39,51 @@
       <Fields>
         <Field Name="Msg">
           <DataField>Msg</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+      </Fields>
+    </DataSet>
+    <DataSet Name="SellingToCustomer">
+      <SharedDataSet>
+        <SharedDataSetReference>SellingToCustomer</SharedDataSetReference>
+      </SharedDataSet>
+      <Fields>
+        <Field Name="CustomerID">
+          <DataField>CustomerID</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="CustomerName">
+          <DataField>CustomerName</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+      </Fields>
+    </DataSet>
+    <DataSet Name="PickingEmployeeSales">
+      <SharedDataSet>
+        <SharedDataSetReference>PickingEmployeeSales</SharedDataSetReference>
+      </SharedDataSet>
+      <Fields>
+        <Field Name="EmployeeID">
+          <DataField>EmployeeID</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="EmployeeName">
+          <DataField>EmployeeName</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+      </Fields>
+    </DataSet>
+    <DataSet Name="PickingProductSales">
+      <SharedDataSet>
+        <SharedDataSetReference>PickingProductSales</SharedDataSetReference>
+      </SharedDataSet>
+      <Fields>
+        <Field Name="ProductID">
+          <DataField>ProductID</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="ProductName">
+          <DataField>ProductName</DataField>
           <rd:TypeName>System.String</rd:TypeName>
         </Field>
       </Fields>
@@ -194,7 +206,7 @@
               </Actions>
             </ActionInfo>
             <Top>0.32167in</Top>
-            <Left>7.53in</Left>
+            <Left>7.705in</Left>
             <Height>0.66667in</Height>
             <Width>0.79167in</Width>
             <ZIndex>3</ZIndex>
@@ -206,6 +218,7 @@
           </Image>
           <Textbox Name="Textbox3">
             <CanGrow>true</CanGrow>
+            <CanShrink>true</CanShrink>
             <KeepTogether>true</KeepTogether>
             <Paragraphs>
               <Paragraph>
@@ -214,7 +227,7 @@
                     <Value>Employee Sales</Value>
                     <Style>
                       <FontFamily>Georgia</FontFamily>
-                      <FontSize>16pt</FontSize>
+                      <FontSize>12pt</FontSize>
                     </Style>
                   </TextRun>
                 </TextRuns>
@@ -224,9 +237,18 @@
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox3</rd:DefaultName>
-            <Top>3.37778in</Top>
-            <Left>7.37167in</Left>
-            <Height>0.59722in</Height>
+            <ActionInfo>
+              <Actions>
+                <Action>
+                  <Drillthrough>
+                    <ReportName>GraphingEmployeeSales</ReportName>
+                  </Drillthrough>
+                </Action>
+              </Actions>
+            </ActionInfo>
+            <Top>3.57777in</Top>
+            <Left>7.26333in</Left>
+            <Height>0.31389in</Height>
             <Width>1.49167in</Width>
             <ZIndex>4</ZIndex>
             <Style>
@@ -256,34 +278,34 @@
   <ReportParameters>
     <ReportParameter Name="CustomerID">
       <DataType>Integer</DataType>
-      <Prompt>Customer ID</Prompt>
+      <Prompt>Customer Name</Prompt>
       <ValidValues>
         <DataSetReference>
           <DataSetName>SellingToCustomer</DataSetName>
           <ValueField>CustomerID</ValueField>
-          <LabelField>CustomerID</LabelField>
+          <LabelField>CustomerName</LabelField>
         </DataSetReference>
       </ValidValues>
     </ReportParameter>
     <ReportParameter Name="EmployeeID">
       <DataType>Integer</DataType>
-      <Prompt>Employee ID</Prompt>
+      <Prompt>Employee Name</Prompt>
       <ValidValues>
         <DataSetReference>
           <DataSetName>PickingEmployeeSales</DataSetName>
           <ValueField>EmployeeID</ValueField>
-          <LabelField>EmployeeID</LabelField>
+          <LabelField>EmployeeName</LabelField>
         </DataSetReference>
       </ValidValues>
     </ReportParameter>
     <ReportParameter Name="ProductID">
       <DataType>Integer</DataType>
-      <Prompt>Product ID</Prompt>
+      <Prompt>Product Name</Prompt>
       <ValidValues>
         <DataSetReference>
           <DataSetName>PickingProductSales</DataSetName>
           <ValueField>ProductID</ValueField>
-          <LabelField>ProductID</LabelField>
+          <LabelField>ProductName</LabelField>
         </DataSetReference>
       </ValidValues>
     </ReportParameter>

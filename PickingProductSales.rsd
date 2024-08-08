@@ -11,6 +11,10 @@
         <DataField>ProductID</DataField>
         <rd:TypeName>System.Int32</rd:TypeName>
       </Field>
+      <Field Name="ProductName">
+        <DataField>ProductName</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
     </Fields>
   </DataSet>
 </SharedDataSet>
