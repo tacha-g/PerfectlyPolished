@@ -9,7 +9,7 @@
       <am:Name>SSDTRS</am:Name>
       <am:Version>17.10.35004.147</am:Version>
     </am:UpdatedBy>
-    <am:LastModifiedTimestamp>2024-08-02T22:31:56.8088938Z</am:LastModifiedTimestamp>
+    <am:LastModifiedTimestamp>2024-08-08T00:39:30.6158535Z</am:LastModifiedTimestamp>
   </am:AuthoringMetadata>
   <df:DefaultFontFamily>Segoe UI</df:DefaultFontFamily>
   <AutoRefresh>0</AutoRefresh>
@@ -392,8 +392,8 @@
             <DataSetName>ProductSearch</DataSetName>
             <Top>1.455in</Top>
             <Left>1.33833in</Left>
-            <Height>1.50833in</Height>
-            <Width>7.06667in</Width>
+            <Height>1.50834in</Height>
+            <Width>7.06668in</Width>
             <ZIndex>1</ZIndex>
             <Style>
               <Border>
@@ -426,7 +426,7 @@
             </Style>
           </Image>
         </ReportItems>
-        <Height>4.31667in</Height>
+        <Height>4.38334in</Height>
         <Style />
       </Body>
       <Width>9.52167in</Width>

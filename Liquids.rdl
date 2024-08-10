@@ -9,7 +9,7 @@
       <am:Name>SSDTRS</am:Name>
       <am:Version>17.10.35004.147</am:Version>
     </am:UpdatedBy>
-    <am:LastModifiedTimestamp>2024-07-25T23:57:29.2911795Z</am:LastModifiedTimestamp>
+    <am:LastModifiedTimestamp>2024-08-08T00:09:11.0358127Z</am:LastModifiedTimestamp>
   </am:AuthoringMetadata>
   <df:DefaultFontFamily>Segoe UI</df:DefaultFontFamily>
   <AutoRefresh>0</AutoRefresh>
@@ -379,8 +379,8 @@
             <DataSetName>Liquids</DataSetName>
             <Top>0.96889in</Top>
             <Left>1.42166in</Left>
-            <Height>1.47501in</Height>
-            <Width>6.70001in</Width>
+            <Height>1.475in</Height>
+            <Width>6.70002in</Width>
             <ZIndex>1</ZIndex>
             <Style>
               <Border>
@@ -394,7 +394,7 @@
             <Sizing>Fit</Sizing>
             <Top>2.24667in</Top>
             <Left>1.42166in</Left>
-            <Height>1.96667in</Height>
+            <Height>1.78334in</Height>
             <Width>6.70001in</Width>
             <ZIndex>2</ZIndex>
             <Style>
@@ -419,7 +419,7 @@
             <Top>0.355in</Top>
             <Left>7.75501in</Left>
             <Height>0.57222in</Height>
-            <Width>0.8in</Width>
+            <Width>0.88333in</Width>
             <ZIndex>3</ZIndex>
             <Style>
               <Border>
@@ -427,11 +427,57 @@
               </Border>
             </Style>
           </Image>
+          <Textbox Name="Textbox2">
+            <CanGrow>true</CanGrow>
+            <CanShrink>true</CanShrink>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Lets Shop</Value>
+                    <Style>
+                      <FontFamily>Georgia</FontFamily>
+                      <FontSize>14pt</FontSize>
+                      <Color>HotPink</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <TextAlign>Center</TextAlign>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox2</rd:DefaultName>
+            <ActionInfo>
+              <Actions>
+                <Action>
+                  <Drillthrough>
+                    <ReportName>BuyingProducts</ReportName>
+                  </Drillthrough>
+                </Action>
+              </Actions>
+            </ActionInfo>
+            <Top>3.38834in</Top>
+            <Left>8.19111in</Left>
+            <Height>0.33333in</Height>
+            <Width>1in</Width>
+            <ZIndex>4</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
         </ReportItems>
-        <Height>4.21333in</Height>
+        <Height>4.52167in</Height>
         <Style />
       </Body>
-      <Width>9.23834in</Width>
+      <Width>9.57167in</Width>
       <Page>
         <LeftMargin>1in</LeftMargin>
         <RightMargin>1in</RightMargin>
