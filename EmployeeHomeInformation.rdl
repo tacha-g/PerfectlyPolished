@@ -9,7 +9,7 @@
       <am:Name>SSDTRS</am:Name>
       <am:Version>17.10.35004.147</am:Version>
     </am:UpdatedBy>
-    <am:LastModifiedTimestamp>2024-08-07T00:50:04.2136512Z</am:LastModifiedTimestamp>
+    <am:LastModifiedTimestamp>2024-08-13T18:50:07.7729711Z</am:LastModifiedTimestamp>
   </am:AuthoringMetadata>
   <df:DefaultFontFamily>Segoe UI</df:DefaultFontFamily>
   <AutoRefresh>0</AutoRefresh>
@@ -66,7 +66,7 @@
                     <Value>Employee Home Page</Value>
                     <Style>
                       <FontFamily>Gabriola</FontFamily>
-                      <FontSize>26pt</FontSize>
+                      <FontSize>28pt</FontSize>
                       <FontWeight>Bold</FontWeight>
                       <Color>BurlyWood</Color>
                     </Style>
@@ -104,6 +104,7 @@
                     <Style>
                       <FontFamily>Georgia</FontFamily>
                       <FontSize>18pt</FontSize>
+                      <TextDecoration>Underline</TextDecoration>
                       <Color>PaleVioletRed</Color>
                     </Style>
                   </TextRun>
@@ -146,7 +147,16 @@
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>Our Top Seller </Value>
+                    <Value>Our Top Seller</Value>
+                    <Style>
+                      <FontFamily>Georgia</FontFamily>
+                      <FontSize>18pt</FontSize>
+                      <TextDecoration>Underline</TextDecoration>
+                      <Color>MediumSlateBlue</Color>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value xml:space="preserve"> </Value>
                     <Style>
                       <FontFamily>Georgia</FontFamily>
                       <FontSize>18pt</FontSize>
@@ -217,11 +227,19 @@
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>
-Employee Name</Value>
+                                  <Value xml:space="preserve">
+</Value>
                                   <Style>
                                     <FontFamily>Georgia</FontFamily>
                                     <FontSize>12pt</FontSize>
+                                  </Style>
+                                </TextRun>
+                                <TextRun>
+                                  <Value>Employee Name</Value>
+                                  <Style>
+                                    <FontFamily>Georgia</FontFamily>
+                                    <FontSize>12pt</FontSize>
+                                    <TextDecoration>Underline</TextDecoration>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -272,6 +290,7 @@ Employee Name</Value>
                                   <Style>
                                     <FontFamily>Georgia</FontFamily>
                                     <FontSize>12pt</FontSize>
+                                    <TextDecoration>Underline</TextDecoration>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -322,6 +341,7 @@ Employee Name</Value>
                                   <Style>
                                     <FontFamily>Georgia</FontFamily>
                                     <FontSize>12pt</FontSize>
+                                    <TextDecoration>Underline</TextDecoration>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -372,6 +392,7 @@ Employee Name</Value>
                                   <Style>
                                     <FontFamily>Georgia</FontFamily>
                                     <FontSize>12pt</FontSize>
+                                    <TextDecoration>Underline</TextDecoration>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -422,6 +443,7 @@ Employee Name</Value>
                                   <Style>
                                     <FontFamily>Georgia</FontFamily>
                                     <FontSize>12pt</FontSize>
+                                    <TextDecoration>Underline</TextDecoration>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -653,7 +675,7 @@ Employee Name</Value>
               </TablixMembers>
             </TablixRowHierarchy>
             <DataSetName>EmployeeHomeInformation</DataSetName>
-            <Top>1.88833in</Top>
+            <Top>1.78in</Top>
             <Left>0.99667in</Left>
             <Height>1.23334in</Height>
             <Width>7.51665in</Width>
@@ -676,6 +698,7 @@ Employee Name</Value>
                     <Style>
                       <FontFamily>Georgia</FontFamily>
                       <FontSize>18pt</FontSize>
+                      <TextDecoration>Underline</TextDecoration>
                       <Color>Olive</Color>
                     </Style>
                   </TextRun>
@@ -725,7 +748,7 @@ Employee Name</Value>
             </ActionInfo>
             <Top>0.18833in</Top>
             <Left>7.48834in</Left>
-            <Height>0.63333in</Height>
+            <Height>0.74166in</Height>
             <Width>0.83333in</Width>
             <ZIndex>5</ZIndex>
             <Style>

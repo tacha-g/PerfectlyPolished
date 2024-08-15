@@ -9,7 +9,7 @@
       <am:Name>SSDTRS</am:Name>
       <am:Version>17.10.35004.147</am:Version>
     </am:UpdatedBy>
-    <am:LastModifiedTimestamp>2024-08-07T23:36:48.5868133Z</am:LastModifiedTimestamp>
+    <am:LastModifiedTimestamp>2024-08-13T22:02:28.8208857Z</am:LastModifiedTimestamp>
   </am:AuthoringMetadata>
   <df:DefaultFontFamily>Segoe UI</df:DefaultFontFamily>
   <AutoRefresh>0</AutoRefresh>
@@ -84,8 +84,24 @@
                       <CellContents>
                         <Textbox Name="Textbox1">
                           <CanGrow>true</CanGrow>
+                          <CanShrink>true</CanShrink>
                           <KeepTogether>true</KeepTogether>
                           <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value />
+                                  <Style>
+                                    <FontFamily>Georgia</FontFamily>
+                                    <FontSize>12pt</FontSize>
+                                    <TextDecoration>Underline</TextDecoration>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
+                            </Paragraph>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
@@ -93,6 +109,7 @@
                                   <Style>
                                     <FontFamily>Georgia</FontFamily>
                                     <FontSize>12pt</FontSize>
+                                    <TextDecoration>Underline</TextDecoration>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -119,8 +136,24 @@
                       <CellContents>
                         <Textbox Name="Textbox3">
                           <CanGrow>true</CanGrow>
+                          <CanShrink>true</CanShrink>
                           <KeepTogether>true</KeepTogether>
                           <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value />
+                                  <Style>
+                                    <FontFamily>Georgia</FontFamily>
+                                    <FontSize>12pt</FontSize>
+                                    <TextDecoration>Underline</TextDecoration>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
+                            </Paragraph>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
@@ -128,6 +161,7 @@
                                   <Style>
                                     <FontFamily>Georgia</FontFamily>
                                     <FontSize>12pt</FontSize>
+                                    <TextDecoration>Underline</TextDecoration>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -154,8 +188,24 @@
                       <CellContents>
                         <Textbox Name="Textbox5">
                           <CanGrow>true</CanGrow>
+                          <CanShrink>true</CanShrink>
                           <KeepTogether>true</KeepTogether>
                           <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value />
+                                  <Style>
+                                    <FontFamily>Georgia</FontFamily>
+                                    <FontSize>12pt</FontSize>
+                                    <TextDecoration>Underline</TextDecoration>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
+                            </Paragraph>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
@@ -163,6 +213,7 @@
                                   <Style>
                                     <FontFamily>Georgia</FontFamily>
                                     <FontSize>12pt</FontSize>
+                                    <TextDecoration>Underline</TextDecoration>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -194,6 +245,7 @@
                       <CellContents>
                         <Textbox Name="ProductName">
                           <CanGrow>true</CanGrow>
+                          <CanShrink>true</CanShrink>
                           <KeepTogether>true</KeepTogether>
                           <Paragraphs>
                             <Paragraph>
@@ -229,6 +281,7 @@
                       <CellContents>
                         <Textbox Name="Review">
                           <CanGrow>true</CanGrow>
+                          <CanShrink>true</CanShrink>
                           <KeepTogether>true</KeepTogether>
                           <Paragraphs>
                             <Paragraph>
@@ -264,6 +317,7 @@
                       <CellContents>
                         <Textbox Name="Rating">
                           <CanGrow>true</CanGrow>
+                          <CanShrink>true</CanShrink>
                           <KeepTogether>true</KeepTogether>
                           <Paragraphs>
                             <Paragraph>
@@ -329,6 +383,7 @@
           </Tablix>
           <Textbox Name="Textbox7">
             <CanGrow>true</CanGrow>
+            <CanShrink>true</CanShrink>
             <KeepTogether>true</KeepTogether>
             <Paragraphs>
               <Paragraph>

@@ -9,7 +9,7 @@
       <am:Name>SSDTRS</am:Name>
       <am:Version>17.10.35004.147</am:Version>
     </am:UpdatedBy>
-    <am:LastModifiedTimestamp>2024-08-08T00:09:06.2261744Z</am:LastModifiedTimestamp>
+    <am:LastModifiedTimestamp>2024-08-13T21:59:42.1388690Z</am:LastModifiedTimestamp>
   </am:AuthoringMetadata>
   <df:DefaultFontFamily>Segoe UI</df:DefaultFontFamily>
   <AutoRefresh>0</AutoRefresh>
@@ -51,7 +51,7 @@
             <Source>Embedded</Source>
             <Value>istockphoto2096881920612x612</Value>
             <Sizing>Fit</Sizing>
-            <Top>2.58in</Top>
+            <Top>2.405in</Top>
             <Left>2.63in</Left>
             <Height>2.03389in</Height>
             <Width>4.53333in</Width>
@@ -143,6 +143,7 @@
                                   <Style>
                                     <FontFamily>Georgia</FontFamily>
                                     <FontSize>12pt</FontSize>
+                                    <TextDecoration>Underline</TextDecoration>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -193,6 +194,7 @@
                                   <Style>
                                     <FontFamily>Georgia</FontFamily>
                                     <FontSize>12pt</FontSize>
+                                    <TextDecoration>Underline</TextDecoration>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -243,6 +245,7 @@
                                   <Style>
                                     <FontFamily>Georgia</FontFamily>
                                     <FontSize>12pt</FontSize>
+                                    <TextDecoration>Underline</TextDecoration>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -338,6 +341,7 @@
                             <PaddingBottom>2pt</PaddingBottom>
                           </Style>
                         </Textbox>
+                        <rd:Selected>true</rd:Selected>
                       </CellContents>
                     </TablixCell>
                     <TablixCell>
@@ -434,10 +438,10 @@
             </Style>
           </Image>
         </ReportItems>
-        <Height>4.91667in</Height>
+        <Height>4.70834in</Height>
         <Style />
       </Body>
-      <Width>9.64667in</Width>
+      <Width>9.23834in</Width>
       <Page>
         <LeftMargin>1in</LeftMargin>
         <RightMargin>1in</RightMargin>

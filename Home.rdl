@@ -9,7 +9,7 @@
       <am:Name>SSDTRS</am:Name>
       <am:Version>17.10.35004.147</am:Version>
     </am:UpdatedBy>
-    <am:LastModifiedTimestamp>2024-08-07T00:50:05.4983489Z</am:LastModifiedTimestamp>
+    <am:LastModifiedTimestamp>2024-08-13T18:50:21.5511978Z</am:LastModifiedTimestamp>
   </am:AuthoringMetadata>
   <df:DefaultFontFamily>Segoe UI</df:DefaultFontFamily>
   <AutoRefresh>0</AutoRefresh>
@@ -31,20 +31,23 @@
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value xml:space="preserve">     </Value>
+                    <Value xml:space="preserve">   </Value>
                     <Style>
                       <FontFamily>Gabriola</FontFamily>
                       <FontSize>26pt</FontSize>
                       <FontWeight>Bold</FontWeight>
+                      <TextDecoration>None</TextDecoration>
                       <Color>HotPink</Color>
                     </Style>
                   </TextRun>
                   <TextRun>
-                    <Value> Perfectly Polished</Value>
+                    <Value>Perfectly Polished</Value>
                     <Style>
+                      <FontStyle>Normal</FontStyle>
                       <FontFamily>Gabriola</FontFamily>
                       <FontSize>36pt</FontSize>
                       <FontWeight>Bold</FontWeight>
+                      <TextDecoration>None</TextDecoration>
                       <Color>HotPink</Color>
                     </Style>
                   </TextRun>
@@ -81,6 +84,7 @@
                     <Style>
                       <FontFamily>Georgia</FontFamily>
                       <FontSize>24pt</FontSize>
+                      <TextDecoration>Underline</TextDecoration>
                       <Color>Violet</Color>
                     </Style>
                   </TextRun>
@@ -127,6 +131,7 @@
                     <Style>
                       <FontFamily>Georgia</FontFamily>
                       <FontSize>24pt</FontSize>
+                      <TextDecoration>Underline</TextDecoration>
                       <Color>SpringGreen</Color>
                     </Style>
                   </TextRun>
@@ -174,6 +179,7 @@
                     <Style>
                       <FontFamily>Georgia</FontFamily>
                       <FontSize>24pt</FontSize>
+                      <TextDecoration>Underline</TextDecoration>
                       <Color>DarkOrange</Color>
                     </Style>
                   </TextRun>
@@ -220,6 +226,7 @@
                     <Style>
                       <FontFamily>Georgia</FontFamily>
                       <FontSize>24pt</FontSize>
+                      <TextDecoration>Underline</TextDecoration>
                       <Color>Gold</Color>
                     </Style>
                   </TextRun>
@@ -281,6 +288,7 @@
                     <Style>
                       <FontFamily>Georgia</FontFamily>
                       <FontSize>24pt</FontSize>
+                      <TextDecoration>Underline</TextDecoration>
                       <Color>Aqua</Color>
                     </Style>
                   </TextRun>
@@ -328,10 +336,10 @@
                 </Action>
               </Actions>
             </ActionInfo>
-            <Top>5.06111in</Top>
-            <Left>7.78in</Left>
-            <Height>0.86667in</Height>
-            <Width>1.20001in</Width>
+            <Top>5.11111in</Top>
+            <Left>7.93833in</Left>
+            <Height>0.81667in</Height>
+            <Width>1.04168in</Width>
             <ZIndex>7</ZIndex>
             <Style>
               <Border>

@@ -9,7 +9,7 @@
       <am:Name>SSDTRS</am:Name>
       <am:Version>17.10.35004.147</am:Version>
     </am:UpdatedBy>
-    <am:LastModifiedTimestamp>2024-08-08T00:08:52.9639162Z</am:LastModifiedTimestamp>
+    <am:LastModifiedTimestamp>2024-08-13T18:50:41.0741380Z</am:LastModifiedTimestamp>
   </am:AuthoringMetadata>
   <df:DefaultFontFamily>Segoe UI</df:DefaultFontFamily>
   <AutoRefresh>0</AutoRefresh>
@@ -101,7 +101,21 @@
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>WHOoo HOoo</Value>
+                    <Value />
+                    <Style>
+                      <FontFamily>Georgia</FontFamily>
+                      <FontSize>18pt</FontSize>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <TextAlign>Center</TextAlign>
+                </Style>
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Welcome To The Team!!</Value>
                     <Style>
                       <FontFamily>Georgia</FontFamily>
                       <FontSize>18pt</FontSize>
@@ -114,9 +128,9 @@
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox2</rd:DefaultName>
-            <Top>1.63in</Top>
+            <Top>0.97167in</Top>
             <Left>4.055in</Left>
-            <Height>0.46667in</Height>
+            <Height>1.01667in</Height>
             <Width>1.76667in</Width>
             <ZIndex>1</ZIndex>
             <Style>
@@ -134,9 +148,9 @@
             <Value>handclap</Value>
             <Sizing>Fit</Sizing>
             <Top>2.16611in</Top>
-            <Left>4.055in</Left>
-            <Height>1.15556in</Height>
-            <Width>1.76667in</Width>
+            <Left>3.86333in</Left>
+            <Height>1.70556in</Height>
+            <Width>2.21667in</Width>
             <ZIndex>2</ZIndex>
             <Style>
               <Border>
