@@ -162,6 +162,7 @@
                       <Style>
                         <FontFamily>Georgia</FontFamily>
                         <FontSize>11pt</FontSize>
+                        <TextDecoration>Underline</TextDecoration>
                       </Style>
                     </ChartAxisTitle>
                     <ChartMajorGridLines>
@@ -384,7 +385,7 @@
                   <BackgroundGradientType>None</BackgroundGradientType>
                   <FontFamily>Georgia</FontFamily>
                   <FontSize>18pt</FontSize>
-                  <FontWeight>Normal</FontWeight>
+                  <TextDecoration>Underline</TextDecoration>
                   <TextAlign>Left</TextAlign>
                   <VerticalAlign>Top</VerticalAlign>
                 </Style>
